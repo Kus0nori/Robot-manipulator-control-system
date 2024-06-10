@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="RosMessageTypes.Moveit.RobotTrajectory" Collapsed="true">
+    <Position X="12" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAgAAABAAAEAAAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\RequiredAssets\RosMessages\Moveit\msg\RobotTrajectory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RosMessageTypes.Ur3Moveit.UR3MoveitJoints" Collapsed="true">
+    <Position X="20.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAEAAAAAAggAABAAgAQCAAAAQBABAQ=</HashCode>
+      <FileName>Assets\RequiredAssets\RosMessages\Ur3Moveit\msg\UR3MoveitJoints.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RosMessageTypes.Ur3Moveit.UR3Trajectory" Collapsed="true">
+    <Position X="18.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAgAAAJAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\RequiredAssets\RosMessages\Ur3Moveit\msg\UR3Trajectory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RosMessageTypes.Ur3Moveit.MoverServiceRequest" Collapsed="true">
+    <Position X="10" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAEAAAAAAgAAABAAAAAAAAAAABBAAQ=</HashCode>
+      <FileName>Assets\RequiredAssets\RosMessages\Ur3Moveit\srv\MoverServiceRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RosMessageTypes.Ur3Moveit.MoverServiceResponse" Collapsed="true">
+    <Position X="13.75" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABEAAAAAAgAAABAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\RequiredAssets\RosMessages\Ur3Moveit\srv\MoverServiceResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RosMessageTypes.Ur3Moveit.PoseEstimationServiceRequest" Collapsed="true">
+    <Position X="16" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAgAEABAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\RequiredAssets\RosMessages\Ur3Moveit\srv\PoseEstimationServiceRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RosMessageTypes.Ur3Moveit.PoseEstimationServiceResponse" Collapsed="true">
+    <Position X="15.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAEAAAAAAgAAABAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\RequiredAssets\RosMessages\Ur3Moveit\srv\PoseEstimationServiceResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LightRandomizer" Collapsed="true">
+    <Position X="18" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAgACAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\RequiredAssets\Scripts\PerceptionRandomizers\LightRandomizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LightRandomizerTag" Collapsed="true">
+    <Position X="14.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\RequiredAssets\Scripts\PerceptionRandomizers\LightRandomizerTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RobotArmObjectPositionRandomizer" Collapsed="true">
+    <Position X="22" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAgIIAAAAABAAAQgAAAAQAAMAAgAA=</HashCode>
+      <FileName>Assets\RequiredAssets\Scripts\PerceptionRandomizers\RobotArmObjectPositionRandomizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RobotArmObjectPositionRandomizerTag" Collapsed="true">
+    <Position X="14" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\RequiredAssets\Scripts\PerceptionRandomizers\RobotArmObjectPositionRandomizerTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlacementConstraint" Collapsed="true">
+    <Position X="13" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\RequiredAssets\Scripts\PerceptionRandomizers\SurfaceObjectPlacer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionConstraint" Collapsed="true">
+    <Position X="11.25" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAQAAAAA=</HashCode>
+      <FileName>Assets\RequiredAssets\Scripts\PerceptionRandomizers\SurfaceObjectPlacer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReachabilityConstraint" Collapsed="true">
+    <Position X="13.5" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAgAAAAAAAAAAAEAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\RequiredAssets\Scripts\PerceptionRandomizers\SurfaceObjectPlacer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SurfaceObjectPlacer" Collapsed="true">
+    <Position X="22" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAIAIAAAAAAIgAIIAAIBAAgCAQgAAAAQAAIAAAAA=</HashCode>
+      <FileName>Assets\RequiredAssets\Scripts\PerceptionRandomizers\SurfaceObjectPlacer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UniformPoseRandomizer" Collapsed="true">
+    <Position X="16" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAgAAEAEAgAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Assets\RequiredAssets\Scripts\PerceptionRandomizers\UniformPoseRandomizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UniformPoseRandomizerTag" Collapsed="true">
+    <Position X="12.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAIAAAAAQAAAAAA=</HashCode>
+      <FileName>Assets\RequiredAssets\Scripts\PerceptionRandomizers\UniformPoseRandomizerTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YRotationRandomizer" Collapsed="true">
+    <Position X="20" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\RequiredAssets\Scripts\PerceptionRandomizers\YRotationRandomizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YRotationRandomizerTag" Collapsed="true">
+    <Position X="10.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAABAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Assets\RequiredAssets\Scripts\PerceptionRandomizers\YRotationRandomizerTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoseEstimationScenarioConstants" Collapsed="true">
+    <Position X="22" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\RequiredAssets\Scripts\PoseEstimationScenario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoseEstimationScenario" Collapsed="true">
+    <Position X="9.75" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAIAAAAAAAAAIAAAAIAAAAAACAAAgAAAAAAI=</HashCode>
+      <FileName>Assets\RequiredAssets\Scripts\PoseEstimationScenario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrajectoryPlanner" Collapsed="true">
+    <Position X="19.25" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QIACGAGAACEUQQAYNAAEgBICACCgCoQAAAQCAgAAwUI=</HashCode>
+      <FileName>Assets\RequiredAssets\Scripts\TrajectoryPlanner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityTemplateProjects.SimpleCameraController" Collapsed="true">
+    <Position X="21.75" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAwgABAAAAAAQYJAAAAAAAAEAAAAAAAIECAACAA=</HashCode>
+      <FileName>Assets\Scripts\SimpleCameraController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Unity.Robotics.ROSTCPConnector.MessageGeneration.Message" Collapsed="true">
+    <Position X="17.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Perception.Randomization.Randomizers.RandomizerTag" Collapsed="true">
+    <Position X="12.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Perception.Randomization.Randomizers.Randomizer" Collapsed="true">
+    <Position X="18.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Perception.Randomization.Scenarios.ScenarioConstants" Collapsed="true">
+    <Position X="19.75" Y="2.75" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Perception.Randomization.Scenarios.PerceptionScenario&lt;T&gt;" Collapsed="true">
+    <Position X="12" Y="7.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Perception.Randomization.Scenarios.Scenario&lt;T&gt;" Collapsed="true">
+    <Position X="14.5" Y="7.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Perception.Randomization.Scenarios.ScenarioBase" Collapsed="true">
+    <Position X="16.75" Y="7.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Times New Roman" Size="9" />
+</ClassDiagram>
